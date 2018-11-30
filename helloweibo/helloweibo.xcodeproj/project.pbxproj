@@ -9,9 +9,7 @@
 /* Begin PBXBuildFile section */
 		141A63C621AFFE2B0085D932 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141A63C521AFFE2B0085D932 /* AppDelegate.swift */; };
 		141A63C821AFFE2B0085D932 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141A63C721AFFE2B0085D932 /* ViewController.swift */; };
-		141A63CB21AFFE2B0085D932 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 141A63C921AFFE2B0085D932 /* Main.storyboard */; };
 		141A63CD21AFFE2B0085D932 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 141A63CC21AFFE2B0085D932 /* Assets.xcassets */; };
-		141A63D021AFFE2B0085D932 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 141A63CE21AFFE2B0085D932 /* LaunchScreen.storyboard */; };
 		141A63DB21AFFE2B0085D932 /* helloweiboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141A63DA21AFFE2B0085D932 /* helloweiboTests.swift */; };
 		141A63E621AFFE2B0085D932 /* helloweiboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141A63E521AFFE2B0085D932 /* helloweiboUITests.swift */; };
 /* End PBXBuildFile section */
@@ -37,9 +35,7 @@
 		141A63C221AFFE2B0085D932 /* helloweibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloweibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		141A63C521AFFE2B0085D932 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		141A63C721AFFE2B0085D932 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		141A63CA21AFFE2B0085D932 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		141A63CC21AFFE2B0085D932 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		141A63CF21AFFE2B0085D932 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		141A63D121AFFE2B0085D932 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		141A63D621AFFE2B0085D932 /* helloweiboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloweiboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		141A63DA21AFFE2B0085D932 /* helloweiboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloweiboTests.swift; sourceTree = "<group>"; };
@@ -99,9 +95,7 @@
 			children = (
 				141A63C521AFFE2B0085D932 /* AppDelegate.swift */,
 				141A63C721AFFE2B0085D932 /* ViewController.swift */,
-				141A63C921AFFE2B0085D932 /* Main.storyboard */,
 				141A63CC21AFFE2B0085D932 /* Assets.xcassets */,
-				141A63CE21AFFE2B0085D932 /* LaunchScreen.storyboard */,
 				141A63D121AFFE2B0085D932 /* Info.plist */,
 			);
 			path = helloweibo;
@@ -232,9 +226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				141A63D021AFFE2B0085D932 /* LaunchScreen.storyboard in Resources */,
 				141A63CD21AFFE2B0085D932 /* Assets.xcassets in Resources */,
-				141A63CB21AFFE2B0085D932 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,25 +286,6 @@
 			targetProxy = 141A63E221AFFE2B0085D932 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		141A63C921AFFE2B0085D932 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				141A63CA21AFFE2B0085D932 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		141A63CE21AFFE2B0085D932 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				141A63CF21AFFE2B0085D932 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		141A63E821AFFE2B0085D932 /* Debug */ = {
@@ -425,30 +398,30 @@
 		141A63EB21AFFE2B0085D932 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LFGNL3DKU4;
 				INFOPLIST_FILE = helloweibo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alpaca.MyUsefulAppliction.helloweibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		141A63EC21AFFE2B0085D932 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LFGNL3DKU4;
 				INFOPLIST_FILE = helloweibo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alpaca.MyUsefulAppliction.helloweibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
