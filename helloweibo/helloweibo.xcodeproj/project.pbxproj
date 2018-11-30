@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14149DD521B141CD0036D693 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14149DD421B141CD0036D693 /* ProfileTableViewController.swift */; };
+		14149DD721B141EE0036D693 /* MessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14149DD621B141EE0036D693 /* MessageTableViewController.swift */; };
+		14149DD921B141FF0036D693 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14149DD821B141FF0036D693 /* HomeTableViewController.swift */; };
+		14149DDB21B142150036D693 /* DiscoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14149DDA21B142150036D693 /* DiscoverTableViewController.swift */; };
+		14149DDD21B142640036D693 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14149DDC21B142640036D693 /* MainViewController.swift */; };
 		141A63C621AFFE2B0085D932 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141A63C521AFFE2B0085D932 /* AppDelegate.swift */; };
-		141A63C821AFFE2B0085D932 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141A63C721AFFE2B0085D932 /* ViewController.swift */; };
 		141A63CD21AFFE2B0085D932 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 141A63CC21AFFE2B0085D932 /* Assets.xcassets */; };
 		141A63DB21AFFE2B0085D932 /* helloweiboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141A63DA21AFFE2B0085D932 /* helloweiboTests.swift */; };
 		141A63E621AFFE2B0085D932 /* helloweiboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141A63E521AFFE2B0085D932 /* helloweiboUITests.swift */; };
@@ -32,9 +36,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14149DD421B141CD0036D693 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		14149DD621B141EE0036D693 /* MessageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewController.swift; sourceTree = "<group>"; };
+		14149DD821B141FF0036D693 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		14149DDA21B142150036D693 /* DiscoverTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverTableViewController.swift; sourceTree = "<group>"; };
+		14149DDC21B142640036D693 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		141A63C221AFFE2B0085D932 /* helloweibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloweibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		141A63C521AFFE2B0085D932 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		141A63C721AFFE2B0085D932 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		141A63C521AFFE2B0085D932 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = helloweibo/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
 		141A63CC21AFFE2B0085D932 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		141A63D121AFFE2B0085D932 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		141A63D621AFFE2B0085D932 /* helloweiboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloweiboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +78,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14149DC421B140990036D693 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				14149DC721B140DC0036D693 /* Tools */,
+				14149DC521B140A60036D693 /* View */,
+				14149DDF21B142B20036D693 /* Model */,
+				14149DC821B140E80036D693 /* ViewModel */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		14149DC521B140A60036D693 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				14149DCE21B1412E0036D693 /* Profile */,
+				14149DCD21B141270036D693 /* Message */,
+				14149DCC21B141210036D693 /* Home */,
+				14149DCB21B141090036D693 /* Discover */,
+				14149DC921B140F90036D693 /* Main */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		14149DC721B140DC0036D693 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		14149DC821B140E80036D693 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		14149DC921B140F90036D693 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				14149DDC21B142640036D693 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		14149DCB21B141090036D693 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				14149DDA21B142150036D693 /* DiscoverTableViewController.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		14149DCC21B141210036D693 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				14149DD821B141FF0036D693 /* HomeTableViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		14149DCD21B141270036D693 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				14149DD621B141EE0036D693 /* MessageTableViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		14149DCE21B1412E0036D693 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				14149DD421B141CD0036D693 /* ProfileTableViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		14149DDF21B142B20036D693 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		141A63B921AFFE2A0085D932 = {
 			isa = PBXGroup;
 			children = (
@@ -93,8 +185,8 @@
 		141A63C421AFFE2B0085D932 /* helloweibo */ = {
 			isa = PBXGroup;
 			children = (
+				14149DC421B140990036D693 /* New Group */,
 				141A63C521AFFE2B0085D932 /* AppDelegate.swift */,
-				141A63C721AFFE2B0085D932 /* ViewController.swift */,
 				141A63CC21AFFE2B0085D932 /* Assets.xcassets */,
 				141A63D121AFFE2B0085D932 /* Info.plist */,
 			);
@@ -251,7 +343,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				141A63C821AFFE2B0085D932 /* ViewController.swift in Sources */,
+				14149DD921B141FF0036D693 /* HomeTableViewController.swift in Sources */,
+				14149DD521B141CD0036D693 /* ProfileTableViewController.swift in Sources */,
+				14149DD721B141EE0036D693 /* MessageTableViewController.swift in Sources */,
+				14149DDD21B142640036D693 /* MainViewController.swift in Sources */,
+				14149DDB21B142150036D693 /* DiscoverTableViewController.swift in Sources */,
 				141A63C621AFFE2B0085D932 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,6 +494,8 @@
 		141A63EB21AFFE2B0085D932 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LFGNL3DKU4;
 				INFOPLIST_FILE = helloweibo/Info.plist;
@@ -413,6 +511,8 @@
 		141A63EC21AFFE2B0085D932 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LFGNL3DKU4;
 				INFOPLIST_FILE = helloweibo/Info.plist;
