@@ -16,6 +16,8 @@
 		141A63CD21AFFE2B0085D932 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 141A63CC21AFFE2B0085D932 /* Assets.xcassets */; };
 		141A63DB21AFFE2B0085D932 /* helloweiboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141A63DA21AFFE2B0085D932 /* helloweiboTests.swift */; };
 		141A63E621AFFE2B0085D932 /* helloweiboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141A63E521AFFE2B0085D932 /* helloweiboUITests.swift */; };
+		148B202221B25D5400840E4A /* VisitorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148B202121B25D5400840E4A /* VisitorTableViewController.swift */; };
+		148B202421B2600100840E4A /* VisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148B202321B2600100840E4A /* VisitorView.swift */; };
 		14F3163E21B24F2A009137F1 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F3163D21B24F2A009137F1 /* UIButton+Extension.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +54,8 @@
 		141A63E121AFFE2B0085D932 /* helloweiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloweiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		141A63E521AFFE2B0085D932 /* helloweiboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloweiboUITests.swift; sourceTree = "<group>"; };
 		141A63E721AFFE2B0085D932 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		148B202121B25D5400840E4A /* VisitorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorTableViewController.swift; sourceTree = "<group>"; };
+		148B202321B2600100840E4A /* VisitorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorView.swift; sourceTree = "<group>"; };
 		14F3163D21B24F2A009137F1 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,6 +125,7 @@
 		14149DC921B140F90036D693 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				148B202021B25CDE00840E4A /* Visitor */,
 				14149DDC21B142640036D693 /* MainViewController.swift */,
 			);
 			path = Main;
@@ -212,6 +217,15 @@
 				141A63E721AFFE2B0085D932 /* Info.plist */,
 			);
 			path = helloweiboUITests;
+			sourceTree = "<group>";
+		};
+		148B202021B25CDE00840E4A /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+				148B202121B25D5400840E4A /* VisitorTableViewController.swift */,
+				148B202321B2600100840E4A /* VisitorView.swift */,
+			);
+			path = Visitor;
 			sourceTree = "<group>";
 		};
 		14F3163C21B24EAF009137F1 /* Extension */ = {
@@ -358,7 +372,9 @@
 				14149DD521B141CD0036D693 /* ProfileTableViewController.swift in Sources */,
 				14149DD721B141EE0036D693 /* MessageTableViewController.swift in Sources */,
 				14149DDD21B142640036D693 /* MainViewController.swift in Sources */,
+				148B202221B25D5400840E4A /* VisitorTableViewController.swift in Sources */,
 				14149DDB21B142150036D693 /* DiscoverTableViewController.swift in Sources */,
+				148B202421B2600100840E4A /* VisitorView.swift in Sources */,
 				141A63C621AFFE2B0085D932 /* AppDelegate.swift in Sources */,
 				14F3163E21B24F2A009137F1 /* UIButton+Extension.swift in Sources */,
 			);
