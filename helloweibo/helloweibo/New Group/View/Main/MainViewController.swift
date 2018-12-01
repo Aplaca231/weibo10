@@ -17,20 +17,27 @@ class MainViewController: UITabBarController {
         
         addChildViewControllers()//添加控制器不会创建按钮   懒加载无处不在
         
+        
         setupComposeButton()
     }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        //将撰写按钮放到最前面
+        tabBar.bringSubview(toFront: composedButton)
+    }
+
     
     
     //MARK  懒加载控件
-    private lazy var composedButton:UIButton = {
-        let button = UIButton()
-        button.setImage(UIImage(named:"tabbar_compose_icon_add"), for: UIControlState.normal)
-         button.setImage(UIImage(named:"tabbar_compose_icon_add_highlighted"), for: UIControlState.highlighted)
-        button.setBackgroundImage(UIImage(named:"tabbar_compose_button"), for: UIControlState.normal)
-        button.setBackgroundImage(UIImage(named:"tabbar_compose_button_highlighted"), for: UIControlState.highlighted)
-        button.sizeToFit()//会根据背景图片大小调整好尺寸
-        return button
-    }()
+    private lazy var composedButton:UIButton = UIButton(imageName: "tabbar_compose_icon_add", backImageName: "tabbar_compose_button")
+//        let button = UIButton()
+//        button.setImage(UIImage(named:"tabbar_compose_icon_add"), for: UIControlState.normal)
+//         button.setImage(UIImage(named:"tabbar_compose_icon_add_highlighted"), for: UIControlState.highlighted)
+//        button.setBackgroundImage(UIImage(named:"tabbar_compose_button"), for: UIControlState.normal)
+//        button.setBackgroundImage(UIImage(named:"tabbar_compose_button_highlighted"), for: UIControlState.highlighted)
+//        button.sizeToFit()//会根据背景图片大小调整好尺寸
+//        return button
+//    }()
 }
 
    //mark  设置界面
@@ -42,9 +49,10 @@ extension MainViewController{//设置界面
         tabBar.addSubview(composedButton)
         //调整按钮
         let count = childViewControllers.count
-        let w = tabBar.bounds.width/CGFloat(count)
         
-        composedButton.frame = composedButton.frame.insetBy(dx:2*w,dy:0)
+        let w = tabBar.bounds.width/CGFloat(count)-1//让按钮宽一点  解决手指触摸容错
+        
+        composedButton.frame = tabBar.bounds.insetBy(dx: 2 * w, dy: 0)
         
         
         

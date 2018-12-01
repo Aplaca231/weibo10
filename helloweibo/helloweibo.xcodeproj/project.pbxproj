@@ -16,6 +16,7 @@
 		141A63CD21AFFE2B0085D932 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 141A63CC21AFFE2B0085D932 /* Assets.xcassets */; };
 		141A63DB21AFFE2B0085D932 /* helloweiboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141A63DA21AFFE2B0085D932 /* helloweiboTests.swift */; };
 		141A63E621AFFE2B0085D932 /* helloweiboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141A63E521AFFE2B0085D932 /* helloweiboUITests.swift */; };
+		14F3163E21B24F2A009137F1 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F3163D21B24F2A009137F1 /* UIButton+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		141A63E121AFFE2B0085D932 /* helloweiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloweiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		141A63E521AFFE2B0085D932 /* helloweiboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloweiboUITests.swift; sourceTree = "<group>"; };
 		141A63E721AFFE2B0085D932 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14F3163D21B24F2A009137F1 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		14149DC721B140DC0036D693 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				14F3163C21B24EAF009137F1 /* Extension */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -209,6 +212,14 @@
 				141A63E721AFFE2B0085D932 /* Info.plist */,
 			);
 			path = helloweiboUITests;
+			sourceTree = "<group>";
+		};
+		14F3163C21B24EAF009137F1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				14F3163D21B24F2A009137F1 /* UIButton+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -349,6 +360,7 @@
 				14149DDD21B142640036D693 /* MainViewController.swift in Sources */,
 				14149DDB21B142150036D693 /* DiscoverTableViewController.swift in Sources */,
 				141A63C621AFFE2B0085D932 /* AppDelegate.swift in Sources */,
+				14F3163E21B24F2A009137F1 /* UIButton+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
