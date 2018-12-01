@@ -13,16 +13,18 @@ class VisitorView: UIView {
     //MARK :-设置视图信息
     func setupInfo(imageName:String?,title:String){
         messageLabel.text = title
-        guard let imgName = imageName else{
+        guard let imgName = imageName else {
             startAnim()
             return
         }
+        
         iconView.image = UIImage(named:imgName)
         //隐藏小房子
         homeView.isHidden=true
         //
-        sendSubview(toBack: maskIconView)
-    }
+        maskIconView.isHidden=true
+        }
+    
     //首页旋转
     private func startAnim(){
         let anim = CABasicAnimation.init(keyPath: "transform.rotation")

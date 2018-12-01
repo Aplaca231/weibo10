@@ -12,7 +12,7 @@ class HomeTableViewController: VisitorTableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        visitorView?.setupInfo(imageName: nil, title: "关注一些人，回这里看看有什么新的惊喜")
+        visitorView?.setupInfo(imageName:nil, title: "关注一些人，回这里看看有什么新的惊喜")
       
     }
 

@@ -36,14 +36,7 @@ class MainViewController: UITabBarController {
     
     //MARK:懒加载控件
     private lazy var composedButton:UIButton = UIButton(imageName: "tabbar_compose_icon_add", backImageName: "tabbar_compose_button")
-//        let button = UIButton()
-//        button.setImage(UIImage(named:"tabbar_compose_icon_add"), for: UIControlState.normal)
-//         button.setImage(UIImage(named:"tabbar_compose_icon_add_highlighted"), for: UIControlState.highlighted)
-//        button.setBackgroundImage(UIImage(named:"tabbar_compose_button"), for: UIControlState.normal)
-//        button.setBackgroundImage(UIImage(named:"tabbar_compose_button_highlighted"), for: UIControlState.highlighted)
-//        button.sizeToFit()//会根据背景图片大小调整好尺寸
-//        return button
-//    }()
+
 }
 
    //mark  设置界面
@@ -77,7 +70,7 @@ extension MainViewController{//设置界面
     ///添加控制器
     
     private func addChildViewController(vc :UIViewController,title :String ,imageName:String){
-        let vc = HomeTableViewController()
+       
         //设置标题  由内至外设置
         vc.title=title
         //设置图像
