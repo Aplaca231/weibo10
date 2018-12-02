@@ -7,9 +7,25 @@
 //
 
 import UIKit
-
+//protocol VisitorViewDelegate: NSObjectProtocol {
+//    //注册
+//    func visitorViewDidRegister()
+//    //登录
+//    func visitorViewDidLogin()
+//
+//}
 ///访客视图 - 处理用户未登录界面显示
 class VisitorView: UIView {
+    ///代理
+//    weak var delegate : VisitorViewDelegate?
+//    //MARK: - 监听方法
+//    @objc private func clickLogin(){
+//        delegate?.visitorViewDidLogin()
+//    }
+//    @objc private func clickRegister(){
+//        delegate?.visitorViewDidRegister()
+//    }
+    
     //MARK :-设置视图信息
     func setupInfo(imageName:String?,title:String){
         messageLabel.text = title
@@ -49,34 +65,12 @@ class VisitorView: UIView {
     setupUI()
     }
     //MARK:-懒加载控件
-    private lazy var iconView :UIImageView=UIImageView(image: UIImage(named:"visitordiscover_feed_image_smallicon"))//旋转图标
-    private lazy var maskIconView: UIImageView = UIImageView(image:UIImage(named:"visitordiscover_feed_mask_smallicon"))//遮罩图片
-    
-    private lazy var homeView :UIImageView=UIImageView(image: UIImage(named:"visitordiscover_feed_image_house"))//小房子
-    private lazy var messageLabel :UILabel={//消息
-        let label = UILabel()
-        label.text = "关于一些人，回这里看看有什么惊喜"
-        label.textColor = UIColor.darkGray
-        label.font = UIFont.systemFont(ofSize: 14)
-        label.numberOfLines = 0
-        label.textAlignment = NSTextAlignment.center
-        return label
-    }()
-    private lazy var registerButton:UIButton={//注册按钮
-        let button = UIButton()
-        button.setTitle("注册", for: UIControlState.normal)
-        button.setTitleColor(UIColor.orange, for: UIControlState.normal)
-        button.setBackgroundImage(UIImage(named:"common_button_white_disable"), for: UIControlState.normal)
-        return button
-        
-    }()
-    private lazy var loginButton:UIButton={//登录按钮
-        let button = UIButton()
-        button.setTitle("登录", for: UIControlState.normal)
-        button.setTitleColor(UIColor.darkGray, for: UIControlState.normal)
-        button.setBackgroundImage(UIImage(named:"common_button_white_disable"), for: UIControlState.normal)
-        return button
-    }()
+    private lazy var iconView :UIImageView=UIImageView(imageName:"visitordiscover_feed_image_smallicon")//旋转图标
+    private lazy var maskIconView: UIImageView = UIImageView(imageName:"visitordiscover_feed_mask_smallicon")//遮罩图片
+    private lazy var homeView :UIImageView=UIImageView(imageName:"visitordiscover_feed_image_house")//小房子
+    private lazy var messageLabel :UILabel = UILabel(title: "关于一些人，回这里看看有什么惊喜", fontSize: 14, COLOR: UIColor.darkGray)//标签
+    lazy var registerButton:UIButton=UIButton(title:"注册",color:UIColor.orange,imageName:"common_button_white_disable")//注册按钮
+    lazy var loginButton:UIButton=UIButton(title:"登录",color:UIColor.darkGray,imageName:"common_button_white_disable")//登录按钮
 }
 
 extension VisitorView{
@@ -89,6 +83,7 @@ extension VisitorView{
         addSubview(messageLabel)
         addSubview(registerButton)
         addSubview(loginButton)
+        
         //2设置自动布局
         //添加约束  到父视图   子视图最好有一个统一的参照物
         for v in subviews{
@@ -124,6 +119,11 @@ extension VisitorView{
         //设置背景颜色 灰度图R=G=B  大多数都使用
         backgroundColor = UIColor(white:237.0/255.0,alpha:1.0)
         
+        
+        //3添加监听方法
+//        registerButton.addTarget(self, action: #selector(VisitorView.clickRegister), for: UIControlEvents.touchUpInside)
+//        loginButton.addTarget(self, action: #selector(VisitorView.clickLogin), for: UIControlEvents.touchUpInside)
+//        
         
     }
 }

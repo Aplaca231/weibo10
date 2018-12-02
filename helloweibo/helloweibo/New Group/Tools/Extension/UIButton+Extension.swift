@@ -9,7 +9,7 @@
 import UIKit
 
 extension UIButton{
-    //便利构造函数
+    //便利构造函数  图像
     convenience init(imageName:String ,backImageName:String){
         self.init()
         
@@ -19,5 +19,14 @@ extension UIButton{
         setBackgroundImage(UIImage(named:backImageName+"_highlighted"), for: UIControlState.highlighted)
         
         sizeToFit()//会根据背景图片大小调整好尺寸
+    }
+    //按钮
+    convenience init(title:String ,color:UIColor ,imageName:String ){
+        self.init()
+      
+        setTitle(title, for: UIControlState.normal)
+        setTitleColor(color, for: UIControlState.normal)
+        setBackgroundImage(UIImage(named:imageName), for: UIControlState.normal)
+     
     }
 }

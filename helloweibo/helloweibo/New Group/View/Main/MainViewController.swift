@@ -58,7 +58,7 @@ extension MainViewController{//设置界面
     }
     private func addChildViewControllers(){
         //设置tintColor 图片渲染颜色    如果能用颜色  不建议使用图片  可以提升性能
-        tabBar.tintColor = UIColor.orange
+        
         addChildViewController(vc: HomeTableViewController(),title:"首页",imageName:"tabbar_home")
          addChildViewController(vc: MessageTableViewController(),title:"消息",imageName:"tabbar_message_center")
         

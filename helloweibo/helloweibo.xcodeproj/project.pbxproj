@@ -16,6 +16,9 @@
 		141A63CD21AFFE2B0085D932 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 141A63CC21AFFE2B0085D932 /* Assets.xcassets */; };
 		141A63DB21AFFE2B0085D932 /* helloweiboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141A63DA21AFFE2B0085D932 /* helloweiboTests.swift */; };
 		141A63E621AFFE2B0085D932 /* helloweiboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141A63E521AFFE2B0085D932 /* helloweiboUITests.swift */; };
+		1460414D21B3B114000616E5 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1460414C21B3B114000616E5 /* UILabel+Extension.swift */; };
+		1460414F21B3B2CC000616E5 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1460414E21B3B2CC000616E5 /* UIImage+Extension.swift */; };
+		1460415121B3BFC2000616E5 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1460415021B3BFC2000616E5 /* Common.swift */; };
 		148B202221B25D5400840E4A /* VisitorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148B202121B25D5400840E4A /* VisitorTableViewController.swift */; };
 		148B202421B2600100840E4A /* VisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148B202321B2600100840E4A /* VisitorView.swift */; };
 		14F3163E21B24F2A009137F1 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F3163D21B24F2A009137F1 /* UIButton+Extension.swift */; };
@@ -54,6 +57,9 @@
 		141A63E121AFFE2B0085D932 /* helloweiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloweiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		141A63E521AFFE2B0085D932 /* helloweiboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloweiboUITests.swift; sourceTree = "<group>"; };
 		141A63E721AFFE2B0085D932 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1460414C21B3B114000616E5 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		1460414E21B3B2CC000616E5 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		1460415021B3BFC2000616E5 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		148B202121B25D5400840E4A /* VisitorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorTableViewController.swift; sourceTree = "<group>"; };
 		148B202321B2600100840E4A /* VisitorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorView.swift; sourceTree = "<group>"; };
 		14F3163D21B24F2A009137F1 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
@@ -111,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				14F3163C21B24EAF009137F1 /* Extension */,
+				1460415021B3BFC2000616E5 /* Common.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -232,6 +239,8 @@
 			isa = PBXGroup;
 			children = (
 				14F3163D21B24F2A009137F1 /* UIButton+Extension.swift */,
+				1460414C21B3B114000616E5 /* UILabel+Extension.swift */,
+				1460414E21B3B2CC000616E5 /* UIImage+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -370,12 +379,15 @@
 			files = (
 				14149DD921B141FF0036D693 /* HomeTableViewController.swift in Sources */,
 				14149DD521B141CD0036D693 /* ProfileTableViewController.swift in Sources */,
+				1460414D21B3B114000616E5 /* UILabel+Extension.swift in Sources */,
 				14149DD721B141EE0036D693 /* MessageTableViewController.swift in Sources */,
+				1460415121B3BFC2000616E5 /* Common.swift in Sources */,
 				14149DDD21B142640036D693 /* MainViewController.swift in Sources */,
 				148B202221B25D5400840E4A /* VisitorTableViewController.swift in Sources */,
 				14149DDB21B142150036D693 /* DiscoverTableViewController.swift in Sources */,
 				148B202421B2600100840E4A /* VisitorView.swift in Sources */,
 				141A63C621AFFE2B0085D932 /* AppDelegate.swift in Sources */,
+				1460414F21B3B2CC000616E5 /* UIImage+Extension.swift in Sources */,
 				14F3163E21B24F2A009137F1 /* UIButton+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

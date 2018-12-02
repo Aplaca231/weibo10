@@ -22,10 +22,29 @@ class VisitorTableViewController: UITableViewController {
     private func setupVisitorView(){
         //替换根视图
         visitorView = VisitorView()
+        //设置代理
+       // visitorView?.delegate = self
         view = visitorView
+        //添加监听方法
+        visitorView?.registerButton.addTarget(self, action: Selector(("visitorViewDidRegister")), for: UIControlEvents.touchUpInside)
+        visitorView?.loginButton.addTarget(self, action: Selector(("visitorViewDidLogin")), for: UIControlEvents.touchUpInside)
        // view.backgroundColor = UIColor.orange
+       
+        
+        //设置导航栏
+        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "注册", style: .plain, target: self, action:Selector(("visitorViewDidRegister")))
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "登录", style: .plain, target: self, action:Selector(("visitorViewDidLogin")))
+        
     }
 }
 
-
+//MARK: -访客视图 监听方法
+extension VisitorTableViewController{
+    func visitorViewDidRegister() {
+        print("注册")
+    }
+    func visitorViewDidLogin() {
+        print("登录")
+    }
+}
 

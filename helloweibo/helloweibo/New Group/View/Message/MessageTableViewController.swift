@@ -12,7 +12,7 @@ class MessageTableViewController: VisitorTableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        visitorView?.setupInfo(imageName: "visitordiscover_image_message",title: "登陆后打开微博都会在这里收到通知")
+        visitorView?.setupInfo(imageName: "visitordiscover_image_message",title: "登陆后打开微博都会在这里收到通知  ")
         
     }
     
