@@ -22,6 +22,9 @@
 		148B202221B25D5400840E4A /* VisitorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148B202121B25D5400840E4A /* VisitorTableViewController.swift */; };
 		148B202421B2600100840E4A /* VisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148B202321B2600100840E4A /* VisitorView.swift */; };
 		14F3163E21B24F2A009137F1 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F3163D21B24F2A009137F1 /* UIButton+Extension.swift */; };
+		2E9E31F0BFCF65367F4E33B3 /* Pods_helloweiboTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA5AB69E9BDD366CBCDE1A94 /* Pods_helloweiboTests.framework */; };
+		5B70A9D10DF33760FED4E3A7 /* Pods_helloweibo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35EE9945DC195D60CECFEF5 /* Pods_helloweibo.framework */; };
+		C392515BE94AF8C21EAC6624 /* Pods_helloweiboUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ED0F5386EFA7BCC84DC3010 /* Pods_helloweiboUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04E0DD5DA49BAC574E1A0593 /* Pods-helloweiboTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-helloweiboTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-helloweiboTests/Pods-helloweiboTests.debug.xcconfig"; sourceTree = "<group>"; };
 		14149DD421B141CD0036D693 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
 		14149DD621B141EE0036D693 /* MessageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewController.swift; sourceTree = "<group>"; };
 		14149DD821B141FF0036D693 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +67,14 @@
 		148B202121B25D5400840E4A /* VisitorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorTableViewController.swift; sourceTree = "<group>"; };
 		148B202321B2600100840E4A /* VisitorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorView.swift; sourceTree = "<group>"; };
 		14F3163D21B24F2A009137F1 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		1AAEA6D3A961C4F9EE4BE583 /* Pods-helloweiboTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-helloweiboTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-helloweiboTests/Pods-helloweiboTests.release.xcconfig"; sourceTree = "<group>"; };
+		40572051BB7EAAE5F1FEB5A1 /* Pods-helloweiboUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-helloweiboUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-helloweiboUITests/Pods-helloweiboUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		46C4D4BE2C58B2F4E6B30D66 /* Pods-helloweiboUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-helloweiboUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-helloweiboUITests/Pods-helloweiboUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5C948D06E5F697D79D0EDA3C /* Pods-helloweibo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-helloweibo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-helloweibo/Pods-helloweibo.debug.xcconfig"; sourceTree = "<group>"; };
+		5ED0F5386EFA7BCC84DC3010 /* Pods_helloweiboUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_helloweiboUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5AB69E9BDD366CBCDE1A94 /* Pods_helloweiboTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_helloweiboTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35EE9945DC195D60CECFEF5 /* Pods_helloweibo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_helloweibo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3823257F6F08E56D1C30E13 /* Pods-helloweibo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-helloweibo.release.xcconfig"; path = "Pods/Target Support Files/Pods-helloweibo/Pods-helloweibo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B70A9D10DF33760FED4E3A7 /* Pods_helloweibo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E9E31F0BFCF65367F4E33B3 /* Pods_helloweiboTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,12 +98,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C392515BE94AF8C21EAC6624 /* Pods_helloweiboUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12F4749392930B054F87DF3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C35EE9945DC195D60CECFEF5 /* Pods_helloweibo.framework */,
+				BA5AB69E9BDD366CBCDE1A94 /* Pods_helloweiboTests.framework */,
+				5ED0F5386EFA7BCC84DC3010 /* Pods_helloweiboUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		14149DC421B140990036D693 /* New Group */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +209,8 @@
 				141A63D921AFFE2B0085D932 /* helloweiboTests */,
 				141A63E421AFFE2B0085D932 /* helloweiboUITests */,
 				141A63C321AFFE2B0085D932 /* Products */,
+				23ADCCCB404F08F8DD5732C4 /* Pods */,
+				12F4749392930B054F87DF3C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -245,6 +272,19 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		23ADCCCB404F08F8DD5732C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C948D06E5F697D79D0EDA3C /* Pods-helloweibo.debug.xcconfig */,
+				E3823257F6F08E56D1C30E13 /* Pods-helloweibo.release.xcconfig */,
+				04E0DD5DA49BAC574E1A0593 /* Pods-helloweiboTests.debug.xcconfig */,
+				1AAEA6D3A961C4F9EE4BE583 /* Pods-helloweiboTests.release.xcconfig */,
+				40572051BB7EAAE5F1FEB5A1 /* Pods-helloweiboUITests.debug.xcconfig */,
+				46C4D4BE2C58B2F4E6B30D66 /* Pods-helloweiboUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -252,9 +292,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 141A63EA21AFFE2B0085D932 /* Build configuration list for PBXNativeTarget "helloweibo" */;
 			buildPhases = (
+				3F9BA51C6A5E0D900C02E1D9 /* [CP] Check Pods Manifest.lock */,
 				141A63BE21AFFE2A0085D932 /* Sources */,
 				141A63BF21AFFE2A0085D932 /* Frameworks */,
 				141A63C021AFFE2A0085D932 /* Resources */,
+				61D880F86465082CB9B73963 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -269,6 +311,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 141A63ED21AFFE2B0085D932 /* Build configuration list for PBXNativeTarget "helloweiboTests" */;
 			buildPhases = (
+				670B8BA1D30A6BDDD5065F59 /* [CP] Check Pods Manifest.lock */,
 				141A63D221AFFE2B0085D932 /* Sources */,
 				141A63D321AFFE2B0085D932 /* Frameworks */,
 				141A63D421AFFE2B0085D932 /* Resources */,
@@ -287,6 +330,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 141A63F021AFFE2B0085D932 /* Build configuration list for PBXNativeTarget "helloweiboUITests" */;
 			buildPhases = (
+				DED760D53ECF0B079441982A /* [CP] Check Pods Manifest.lock */,
 				141A63DD21AFFE2B0085D932 /* Sources */,
 				141A63DE21AFFE2B0085D932 /* Frameworks */,
 				141A63DF21AFFE2B0085D932 /* Resources */,
@@ -371,6 +415,103 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F9BA51C6A5E0D900C02E1D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-helloweibo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61D880F86465082CB9B73963 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-helloweibo/Pods-helloweibo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-helloweibo/Pods-helloweibo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		670B8BA1D30A6BDDD5065F59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-helloweiboTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DED760D53ECF0B079441982A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-helloweiboUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		141A63BE21AFFE2A0085D932 /* Sources */ = {
@@ -533,6 +674,7 @@
 		};
 		141A63EB21AFFE2B0085D932 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C948D06E5F697D79D0EDA3C /* Pods-helloweibo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -550,6 +692,7 @@
 		};
 		141A63EC21AFFE2B0085D932 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3823257F6F08E56D1C30E13 /* Pods-helloweibo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -567,6 +710,7 @@
 		};
 		141A63EE21AFFE2B0085D932 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04E0DD5DA49BAC574E1A0593 /* Pods-helloweiboTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -584,6 +728,7 @@
 		};
 		141A63EF21AFFE2B0085D932 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AAEA6D3A961C4F9EE4BE583 /* Pods-helloweiboTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -601,6 +746,7 @@
 		};
 		141A63F121AFFE2B0085D932 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40572051BB7EAAE5F1FEB5A1 /* Pods-helloweiboUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -617,6 +763,7 @@
 		};
 		141A63F221AFFE2B0085D932 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46C4D4BE2C58B2F4E6B30D66 /* Pods-helloweiboUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
