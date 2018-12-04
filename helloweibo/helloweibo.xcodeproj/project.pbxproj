@@ -17,6 +17,7 @@
 		141A63DB21AFFE2B0085D932 /* helloweiboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141A63DA21AFFE2B0085D932 /* helloweiboTests.swift */; };
 		141A63E621AFFE2B0085D932 /* helloweiboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141A63E521AFFE2B0085D932 /* helloweiboUITests.swift */; };
 		143AF91B21B57DC7002C23BC /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143AF91A21B57DC7002C23BC /* NetworkTools.swift */; };
+		144C54B621B6CE42008EC34F /* OAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144C54B521B6CE42008EC34F /* OAuthViewController.swift */; };
 		1460414D21B3B114000616E5 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1460414C21B3B114000616E5 /* UILabel+Extension.swift */; };
 		1460414F21B3B2CC000616E5 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1460414E21B3B2CC000616E5 /* UIImage+Extension.swift */; };
 		1460415121B3BFC2000616E5 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1460415021B3BFC2000616E5 /* Common.swift */; };
@@ -63,6 +64,7 @@
 		141A63E521AFFE2B0085D932 /* helloweiboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloweiboUITests.swift; sourceTree = "<group>"; };
 		141A63E721AFFE2B0085D932 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		143AF91A21B57DC7002C23BC /* NetworkTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
+		144C54B521B6CE42008EC34F /* OAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthViewController.swift; sourceTree = "<group>"; };
 		1460414C21B3B114000616E5 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 		1460414E21B3B2CC000616E5 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		1460415021B3BFC2000616E5 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 		14149DC521B140A60036D693 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				144C54B421B6CDE8008EC34F /* OAuth */,
 				14149DCE21B1412E0036D693 /* Profile */,
 				14149DCD21B141270036D693 /* Message */,
 				14149DCC21B141210036D693 /* Home */,
@@ -254,6 +257,14 @@
 				141A63E721AFFE2B0085D932 /* Info.plist */,
 			);
 			path = helloweiboUITests;
+			sourceTree = "<group>";
+		};
+		144C54B421B6CDE8008EC34F /* OAuth */ = {
+			isa = PBXGroup;
+			children = (
+				144C54B521B6CE42008EC34F /* OAuthViewController.swift */,
+			);
+			path = OAuth;
 			sourceTree = "<group>";
 		};
 		148B202021B25CDE00840E4A /* Visitor */ = {
@@ -505,6 +516,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				144C54B621B6CE42008EC34F /* OAuthViewController.swift in Sources */,
 				14149DD921B141FF0036D693 /* HomeTableViewController.swift in Sources */,
 				14149DD521B141CD0036D693 /* ProfileTableViewController.swift in Sources */,
 				1460414D21B3B114000616E5 /* UILabel+Extension.swift in Sources */,
